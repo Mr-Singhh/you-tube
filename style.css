@@ -1,0 +1,38 @@
+#show_videos{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 5%;
+}
+
+#top {
+    display: flex;
+}
+
+#query{
+    padding: 7px 30px;
+    margin-bottom: 2%;
+    border-radius: 7px;
+}
+
+/* #show_videos{
+    background-color: black;
+    border-radius: 10px;
+} */
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: red;
+    font-size: 70px;
+}
+
+#button{
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+
